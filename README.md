@@ -66,7 +66,7 @@
 
 A2A Cosmetics is the agentic commerce hub for cosmetics, offering AI-driven services across skin care, fragrance, sun care and dermocosmetics in 18 markets. The platform provides an Agent-to-Agent (A2A) surface powered by the Model Context Protocol (MCP), enabling brands, manufacturers, retailers and distributors to connect via secure, automated APIs.
 
-**Areas:** Cosmetics · AI · Agentic · Commerce · GTIN
+**Areas:** Cosmetics · Artificial Intelligence · AI Agents · Commerce · GTIN
 
 ## A2A Cosmetics on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for A2A Cosmetics is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a2a-cosmetics-ai-mcp.yml](https://apis.io/servers/a2a-cosmetics-ai/a2a-cosmetics-ai-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [A2A Cosmetics Ai Agentic Access](https://apis.io/agentic-access/a2a-cosmetics-ai/a2a-cosmetics-ai-agentic-access/)
+- [A2A Cosmetics Agentic Access](https://apis.io/agentic-access/a2a-cosmetics-ai/a2a-cosmetics-ai-agentic-access/)
 
 #### Governance rules (1)
 
@@ -96,15 +102,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A2A Cosmetics Ai Authentication](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-authentication/)
-- [A2A Cosmetics Ai Domain Security](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-domain-security/)
-- [A2A Cosmetics Ai Vulnerability Disclosure](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-vulnerability-disclosure/)
+- [A2A Cosmetics Authentication](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-authentication/)
+- [A2A Cosmetics Domain Security](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-domain-security/)
+- [A2A Cosmetics Vulnerability Disclosure](https://apis.io/security/a2a-cosmetics-ai/a2a-cosmetics-ai-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [A2A Cosmetics Ai Scopes](https://apis.io/scopes/a2a-cosmetics-ai/a2a-cosmetics-ai-scopes/)
+- [A2A Cosmetics Scopes](https://apis.io/scopes/a2a-cosmetics-ai/a2a-cosmetics-ai-scopes/)
 
 ## Where to find this API
 
@@ -121,23 +127,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 36.1** — thin · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 35.2** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 81.7 |
 | Contract quality | 0.0 |
-| Contract governance | 65.5 |
-| Operational transparency | 26.3 |
+| Contract governance | 31.8 |
+| Operational transparency | 23.8 |
 | Developer ergonomics | 54.0 |
-| Access clarity | 21.1 |
+| Access clarity | 29.8 |
 
-**Agent readiness 24.0** — agent-aware
+**Agent readiness 17.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -148,7 +154,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -157,6 +163,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
 
